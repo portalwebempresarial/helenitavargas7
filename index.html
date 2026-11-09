@@ -1,1 +1,155 @@
-index.html
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo Me Llamo Helenita Vargas | Cotizaciones 2026</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        gold: {
+                            400: '#FACC15',
+                            500: '#EAB308',
+                            600: '#CA8A04',
+                        },
+                        charcoal: {
+                            900: '#121212',
+                            800: '#1E1E1E',
+                            700: '#2D2D2D',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Custom Scrollbar for elegance */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #121212; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #CA8A04; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b45309; 
+        }
+        
+        .gold-gradient-text {
+            background: linear-gradient(to right, #FDE047, #EAB308, #A16207);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-charcoal-900 text-gray-200 font-sans antialiased selection:bg-gold-500 selection:text-black">
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex flex-col items-center justify-center pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-[url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/90 to-charcoal-900"></div>
+        
+        <div class="relative z-10 text-center max-w-4xl mx-auto flex flex-col items-center">
+            <div class="w-24 h-1 bg-gold-500 mb-8 rounded-full"></div>
+            
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight mb-4 gold-gradient-text drop-shadow-lg">
+                Yo Me Llamo<br>Helenita Vargas
+            </h1>
+            
+            <p class="mt-6 text-xl md:text-2xl text-gray-300 font-light italic max-w-2xl mx-auto border-l-4 border-red-600 pl-4 py-2">
+                "El mejor tributo a la Ronca de Oro, exclusivo de Caracol Televisión."
+            </p>
+            
+            <div class="mt-12 flex flex-col sm:flex-row gap-4 items-center">
+                <a href="https://wa.me/573136717496?text=Hola,%20deseo%20cotizar%20un%20show%20de%20Helenita%20Vargas" target="_blank" class="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-200 bg-green-600 font-pj rounded-full hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-600 shadow-[0_0_20px_rgba(22,163,74,0.5)] hover:shadow-[0_0_30px_rgba(22,163,74,0.7)] hover:scale-105">
+                    <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                    Cotizar mi Evento
+                </a>
+            </div>
+
+            <!-- Instagram Simulated Embed -->
+            <div class="mt-16 w-full max-w-md mx-auto bg-charcoal-800/80 backdrop-blur-md border border-gray-700 rounded-2xl overflow-hidden shadow-2xl transition-transform hover:scale-[1.02]">
+                <div class="p-4 border-b border-gray-700 flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 p-0.5">
+                            <div class="w-full h-full rounded-full bg-charcoal-900 border-2 border-transparent overflow-hidden flex items-center justify-center text-xs">
+                                <img src="https://placehold.co/100x100/1e1e1e/eab308?text=HV" alt="Avatar" class="object-cover w-full h-full">
+                            </div>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-sm font-bold text-white flex items-center gap-1">helenitavargas7 <i class="fas fa-check-circle text-blue-500 text-xs"></i></p>
+                            <p class="text-xs text-gray-400">Artista Oficial</p>
+                        </div>
+                    </div>
+                    <a href="https://www.instagram.com/helenitavargas7/" target="_blank" class="text-gold-500 hover:text-gold-400 text-sm font-semibold">
+                        Ver Perfil
+                    </a>
+                </div>
+                <div class="p-8 flex flex-col items-center justify-center text-center bg-charcoal-900/50">
+                    <i class="fab fa-instagram text-5xl text-gray-500 mb-3"></i>
+                    <p class="text-gray-300 font-medium">Sigue las presentaciones y novedades en Instagram</p>
+                    <a href="https://www.instagram.com/helenitavargas7/" target="_blank" class="mt-4 px-6 py-2 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 rounded-lg text-white font-medium hover:opacity-90 transition-opacity">
+                        @helenitavargas7
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Acerca del Artista -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-charcoal-900 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2 relative">
+                <div class="absolute inset-0 bg-gold-500 transform translate-x-3 translate-y-3 rounded-lg z-0 opacity-20"></div>
+                <!-- Usando placeholder que simula la foto del artista de los documentos -->
+                <img src="https://placehold.co/600x800/121212/eab308?text=Pedro+Alejandro+Arredondo" alt="Pedro Alejandro Arredondo" class="relative z-10 w-full h-auto rounded-lg shadow-2xl border border-gray-700 grayscale hover:grayscale-0 transition-all duration-500">
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="h-[1px] w-12 bg-red-600"></span>
+                    <h2 class="text-red-500 font-bold uppercase tracking-widest text-sm">Trayectoria Inigualable</h2>
+                </div>
+                <h3 class="text-3xl md:text-5xl font-serif font-bold text-white mb-6">Pedro Alejandro Arredondo</h3>
+                <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                    Con más de <strong class="text-gold-400">17 años de trabajo musical</strong> y reconocimiento a nivel nacional, Pedro Alejandro ha participado en arte, televisión y formación de nuevos talentos.
+                </p>
+                <p class="text-gray-400 text-lg leading-relaxed mb-8 border-l-2 border-gold-500 pl-4">
+                    Destacado participante en la primera temporada del exitoso programa <strong>"Yo me llamo"</strong> de Caracol Televisión, encarnando con maestría y pasión el legado de La Ronca de Oro.
+                </p>
+                <a href="https://wa.me/573136717496" class="inline-flex items-center text-gold-500 hover:text-gold-400 font-semibold text-lg transition-colors">
+                    Contratar al Artista <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifas 2026 -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-charcoal-800 relative">
+        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold-500 to-transparent opacity-50"></div>
+        
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Tarifas Oficiales <span class="text-gold-500">2026</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto text-lg">Seleccione el formato ideal para su
